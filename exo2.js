@@ -21,7 +21,8 @@ document.write(mois);
 											
 											/* EXO 8 */
 var array = ['Pomme','Cerise','Tomate','Citron', ['Orange','Poivron']];
-/*array.push('courgette')
+/*
+array.push('courgette')
 document.write(array) ; 
 */
 
@@ -35,6 +36,7 @@ document.write(array);
 										*/
 
 
-
-
+var array = ['Pomme','Cerise','Tomate','Citron', ['Orange','Poivron']];
+array.splice(1, 1,);
+document.write(array)
 
