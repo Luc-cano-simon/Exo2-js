@@ -71,7 +71,7 @@ function vrai()
 
 alert(vrai());
 */
-											/* exo 2 */
+											/* exo 2 
 
 var str= "une chaine";
 
@@ -79,6 +79,17 @@ function chaine(){
 return str;
 } ;
 document.write(chaine());
+*/
 
+											/* exo 3
 
+var str1 = "Ma première chaine"
+var str2 = "Ma deuxième chaine"
+function conc(){
+	var resultat = str1+str2 ;
+	return resultat ;
+} ;
+
+document.write(conc());
+*/
 
