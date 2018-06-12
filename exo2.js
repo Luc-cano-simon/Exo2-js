@@ -35,8 +35,18 @@ document.write(array);
 
 										*/
 
-
+										/* Exo 10
 var array = ['Pomme','Cerise','Tomate','Citron', ['Orange','Poivron']];
 array.splice(1, 1,);
 document.write(array)
+*/
+
+										/*
+
+var array = ['Pomme','Cerise','Tomate','Citron', ['Orange','Poivron']];
+array.splice(2, 0, 'poire');
+document.write(array)
+
+*/
+
 
