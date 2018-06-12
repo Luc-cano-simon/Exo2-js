@@ -51,7 +51,7 @@ document.write(array)
 
 */
 											/* Exercice Fonction */
-											/* 			Exo 1    */ 
+											/* 			Exo 1     
 
 
 var a = 3
@@ -70,3 +70,15 @@ function vrai()
 }
 
 alert(vrai());
+*/
+											/* exo 2 */
+
+var str= "une chaine";
+
+function chaine(){
+return str;
+} ;
+document.write(chaine());
+
+
+
