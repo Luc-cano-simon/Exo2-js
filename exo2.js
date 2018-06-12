@@ -1,3 +1,5 @@
+												 /*  Exercice Tableau*/
+
 												/* Exo 1 */
 
 var mois = ['Janvier','Fevrier','Mars','Avril', 'Mai','Juin','Juillet','Aout', 'Septembre', 'Octobre','Novembre','Decembre'];
@@ -5,9 +7,9 @@ var mois = ['Janvier','Fevrier','Mars','Avril', 'Mai','Juin','Juillet','Aout', '
 
 												/* Exo 2,3,4 */
 
-document.write(mois[2]+ "<br/>" + "<br/>"); /* affiche la valeur " MARS " (la première valeur = à O) */
-document.write(mois[4]+ "<br/>" + "<br/>");/* affiche la valeur " MAI " (la première valeur = à O) */
-document.write(mois[10]+ "<br/>" + "<br/>");/* affiche la valeur " Novembre " (la première valeur = à O) */
+/*document.write(mois[2]+ "<br/>" + "<br/>");  affiche la valeur " MARS " (la première valeur = à O) */
+/*document.write(mois[4]+ "<br/>" + "<br/>"); affiche la valeur " MAI " (la première valeur = à O) */
+/*document.write(mois[10]+ "<br/>" + "<br/>");/* affiche la valeur " Novembre " (la première valeur = à O) */
 
 
 /*
@@ -48,5 +50,23 @@ array.splice(2, 0, 'poire');
 document.write(array)
 
 */
+											/* Exercice Fonction */
+											/* 			Exo 1    */ 
 
 
+var a = 3
+var b = 2
+
+function vrai()
+{
+	if (a > b)
+	{
+		return true;
+	}
+	else
+	{
+		return false;
+	}
+}
+
+alert(vrai());
