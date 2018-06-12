@@ -93,3 +93,25 @@ function conc(){
 document.write(conc());
 */
 
+function comp(num1,num2)
+{
+	var num1 = prompt("Veuillez entrer le 1er Numéro")
+	var num2 = prompt("Veuillez entrer le second Numéro")
+	if (num1>num2)
+	{
+		alert("Le premier Numéro est plus grand")
+		return "Le premier Numéro est plus grand";
+	}
+		
+		else if(num1<num2)
+		{
+			alert("Le premier Numéro est plus petit")
+			return "Le premier Numéro est plus petit";
+		}
+			else 
+			{
+				alert("Les deux Numéro sont identiques")
+				return "Les deux Numéro sont identiques";
+			}
+}
+document.write(comp());
