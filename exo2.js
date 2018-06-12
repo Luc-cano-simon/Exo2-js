@@ -18,7 +18,23 @@ alert("le moi d " +(mois[7])+ " vient d'être modifier"); /* alert de modificati
 /* mois[7]= "aôut";
 document.write(mois); 
 */
-
+											
+											/* EXO 8 */
 var array = ['Pomme','Cerise','Tomate','Citron', ['Orange','Poivron']];
-array.push('courgette')
-document.write(array) ;
+/*array.push('courgette')
+document.write(array) ; 
+*/
+
+										/*
+
+										Exo 9
+
+var Citron = array[4].push('Citron');
+document.write(array);                  
+
+										*/
+
+
+
+
+
