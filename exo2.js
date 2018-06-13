@@ -242,3 +242,16 @@ var nbr2 = 100 ;
 
 }
 */
+
+										//Exo 3
+
+
+var nbr1 = 100 ;
+var nbr2 = 30 ;
+	while (nbr1 >= 10) 
+{
+	var res = nbr1 * nbr2 ;
+
+    document.write(res+ '<br />') ;
+    nbr1--
+}
