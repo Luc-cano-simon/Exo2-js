@@ -2,7 +2,7 @@
 
 												/* Exo 1 */
 
-var mois = ['Janvier','Fevrier','Mars','Avril', 'Mai','Juin','Juillet','Aout', 'Septembre', 'Octobre','Novembre','Decembre'];
+//var mois = ['Janvier','Fevrier','Mars','Avril', 'Mai','Juin','Juillet','Aout', 'Septembre', 'Octobre','Novembre','Decembre'];
 /*alert(mois); */
 
 												/* Exo 2,3,4 */
@@ -224,6 +224,21 @@ while (number < 10)
 
     number++;
     alert(number);
+
+}
+*/
+
+											// EXO 2 
+
+/*
+var nbr1 = 0 ;
+var nbr2 = 100 ;
+	while (nbr1 <= 20) 
+{
+	var res = nbr1 * nbr2 ;
+
+    alert(res);
+    nbr1++
 
 }
 */
