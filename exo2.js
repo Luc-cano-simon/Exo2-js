@@ -209,3 +209,21 @@ function calc(){
 
 */ 
 
+										//	EXERCICE = Les loops
+
+												//	EXO 1
+
+
+/*
+
+var number = 0;
+
+
+while (number < 10) 
+{
+
+    number++;
+    alert(number);
+
+}
+*/
