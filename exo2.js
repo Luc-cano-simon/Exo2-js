@@ -186,7 +186,26 @@ var age =prompt("Quel age as tu");
 	else {
 		alert("vous êtes une femme et vous êtes mineur");
 
-	}
+	
 		
 */
+
+											// Exo 8
+
+/*
+
+var a=prompt("Entrez votre 1er numéro à additionner" ) ;
+var b=prompt("Entrez votre 2eme numéro à additionner") ;
+var c=prompt("Entrez votre 3eme Numéro à additionner") ;
+
+function calc(){
 	
+	var r=  parseInt(a) + parseInt(b) + parseInt(c) ;
+	alert(r);
+	return(r);
+}
+
+(calc())
+
+*/ 
+
