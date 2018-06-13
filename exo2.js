@@ -144,6 +144,7 @@ function conc() {
 
 												// Exo 6
 
+/*
 
 var nom= prompt("Votre nom ?");
 var prenom=prompt("Votre prénom ?");
@@ -151,10 +152,41 @@ var age=prompt("Votre age ?");
 
 function iden (){
 
-	var res=" Bonjour " + nom  + prenom + " ,tu as " + age +  " ans"
+	var res=" Bonjour " + nom + prenom + " ,tu as " + age +  " ans"
 	alert(res)
 	return(res)
 }
 
 (iden());
 
+*/
+
+													//	Exo 7
+
+/*
+
+var genre =prompt("Vous êtes un homme ou une femme");
+var age =prompt("Quel age as tu");
+
+
+
+	if(age >= 18 && genre == "homme")
+	{
+		alert("vous êtes un homme et vous êtes majeur ");
+
+	}
+	else if (age < 18 && genre == "homme")
+	{
+		alert("vous êtes un homme et vous êtes mineur");
+	}
+	else if (age >= 18 && genre == "femme")
+	{
+		alert("Vous êtes une femme et vous êtes majeur");
+	}
+	else {
+		alert("vous êtes une femme et vous êtes mineur");
+
+	}
+		
+*/
+	
