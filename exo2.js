@@ -22,7 +22,7 @@ document.write(mois);
 */
 											
 											/* EXO 8 */
-var array = ['Pomme','Cerise','Tomate','Citron', ['Orange','Poivron']];
+/*var array = ['Pomme','Cerise','Tomate','Citron', ['Orange','Poivron']]; */
 /*
 array.push('courgette')
 document.write(array) ; 
@@ -93,10 +93,16 @@ function conc(){
 document.write(conc());
 */
 
-function comp(num1,num2)
+											// EXO 4  
+
+/*
+
+var num1 = prompt("Veuillez entrer le 1er Numéro") // Variable hors fonction à ne pas inclure dans les valeurs de la fonction
+var num2 = prompt("Veuillez entrer le second Numéro")  // Variabele dans une fonction il faut indiquer les valeurs
+
+function comp()
 {
-	var num1 = prompt("Veuillez entrer le 1er Numéro")
-	var num2 = prompt("Veuillez entrer le second Numéro")
+	
 	if (num1>num2)
 	{
 		alert("Le premier Numéro est plus grand")
@@ -115,3 +121,23 @@ function comp(num1,num2)
 			}
 }
 document.write(comp());
+
+*/
+
+													//Exo 5
+						
+/*						
+	var nbr =prompt("Choisissez un nombre");
+	var mot =prompt("choisissez un mot");
+
+
+function conc() {
+	
+	var res =nbr + mot;
+		alert(res);
+		return res;
+}
+
+(conc());
+
+*/
