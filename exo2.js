@@ -141,3 +141,20 @@ function conc() {
 (conc());
 
 */
+
+												// Exo 6
+
+
+var nom= prompt("Votre nom ?");
+var prenom=prompt("Votre prénom ?");
+var age=prompt("Votre age ?");
+
+function iden (){
+
+	var res=" Bonjour " + nom  + prenom + " ,tu as " + age +  " ans"
+	alert(res)
+	return(res)
+}
+
+(iden());
+
