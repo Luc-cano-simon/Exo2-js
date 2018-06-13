@@ -245,7 +245,7 @@ var nbr2 = 100 ;
 
 										//Exo 3
 
-
+/*
 var nbr1 = 100 ;
 var nbr2 = 30 ;
 	while (nbr1 >= 10) 
@@ -255,3 +255,37 @@ var nbr2 = 30 ;
     document.write(res+ '<br />') ;
     nbr1--
 }
+*/ 
+
+										// Exo 4 
+
+/*
+var a = 1
+while (a<10)
+{
+	document.write("<br>a = "+a)
+	a = a + a/2
+}
+*/
+
+										// exo 5
+
+/*
+var exo5 = 1
+while (exo5<15)
+{
+	document.write("On y arrive presque.<br>")
+	exo5++
+}
+*/
+									// exo 6 
+/*
+var exo6 = 1
+	while (exo6<20)
+{
+	document.write("C'est presque bon. <br>") 
+	exo6++
+}
+*/
+									// exo 7
+
