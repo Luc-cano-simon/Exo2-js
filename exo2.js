@@ -271,21 +271,51 @@ while (a<10)
 										// exo 5
 
 /*
-var exo5 = 1
-while (exo5<15)
+document.write("<br />"+"<br />");
+
+for (i=1; i <16; i++)
 {
-	document.write("On y arrive presque.<br>")
-	exo5++
+	document.write(i+"  "+'On y arrive presque.'+'<br />');
 }
+
 */
-									// exo 6 
+
+										// Exo 6
+
 /*
-var exo6 = 1
-	while (exo6<20)
-{
-	document.write("C'est presque bon. <br>") 
-	exo6++
+
+document.write("<br />"+"<br />");
+
+for (i=20; i >= 0 ; i--) 
+{ 
+	document.write(i+"  "+"C'est presque bon."+'<br />');
 }
+
 */
+
 									// exo 7
 
+/*
+
+document.write("<br />"+"<br />");
+
+for (i=1; i < 101 ; i+= 15) 
+{ 
+	document.write(i+" "+"On tient le bon bout."+'<br />');
+}
+
+*/
+
+
+									// Exo 8
+
+/*
+
+document.write("<br />"+"<br />");
+
+for (i=200; i >= 0 ; i-= 12) 
+{ 
+	document.write(i+" "+"Enfin !!!!"+"<br />");
+}
+
+*/
